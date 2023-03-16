@@ -1,3 +1,5 @@
+new line
+
 devops-netology
 
 Из коммитов будут исключены файлы с расширениями .tfstate, .tfstate., .tfvars, .tfvars.json, .terraformrc;
