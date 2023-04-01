@@ -67,7 +67,10 @@ Date:   Thu Apr 2 18:04:39 2020 -0700
 
 * Кто автор функции `synchronizedWriters`? 
 
-  
+  > `git log -S "synchronizedWriters"`
 
+  ![](https://github.com/Dmitriy-Chemezov/devops-netology/blob/main/6.png)
+  
+  > Самым ранним коммитом является коммит commit 5ac311e2a91e381e2f52234668b49ba670aa0fe5, автором которого является Author: Martin Atkins <mart@degeneration.co.uk>
 
 *В качестве решения ответьте на вопросы и опишите, как были получены эти ответы.*
