@@ -54,8 +54,20 @@ Date:   Thu Apr 2 18:04:39 2020 -0700
 
 * Найдите все коммиты, в которых была изменена функция `globalPluginDirs`.
 
-  
+  > `git log -S 'globalPluginDirs'`
+
+  ![](https://github.com/Dmitriy-Chemezov/devops-netology/blob/main/3.png)
+
+  > Рассмотрим их более подробно `git log -L :'func globalPluginDirs':plugins.go --oneline`
+
+  > И мы видим что в commit 8364383c359a6b738a436d1b7745ccdce178df47 функция создана а в остальных она редактировалась.
+
+  ![](https://github.com/Dmitriy-Chemezov/devops-netology/blob/main/4.png)
+
 
 * Кто автор функции `synchronizedWriters`? 
+
+  
+
 
 *В качестве решения ответьте на вопросы и опишите, как были получены эти ответы.*
