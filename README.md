@@ -34,9 +34,28 @@ devops-netology
 
 * Найдите коммит, в котором была создана функция `func providerSource`, её определение в коде выглядит так: `func providerSource(...)` (вместо троеточия перечислены аргументы).
 
+  > `git log -S 'func providerSource'`
+ 
+  > Нашли два коммита:
   
+  > commit 5af1e6234ab6da412fb8637393c5a17a1b293663
+Author: Martin Atkins <mart@degeneration.co.uk>
+Date:   Tue Apr 21 16:28:59 2020 -0700
+  
+  > commit 8c928e83589d90a031f811fae52a81be7153e82f
+Author: Martin Atkins <mart@degeneration.co.uk>
+Date:   Thu Apr 2 18:04:39 2020 -0700
+  
+  > Подробнее рассмотрим более ранний коммит
+  
+  > `git show 8c928e8 | grep "func providerSource"`
+  
+  > Получили ответ:  +func providerSource(services *disco.Disco) getproviders.Source {
 
 * Найдите все коммиты, в которых была изменена функция `globalPluginDirs`.
+
+  
+
 * Кто автор функции `synchronizedWriters`? 
 
 *В качестве решения ответьте на вопросы и опишите, как были получены эти ответы.*
